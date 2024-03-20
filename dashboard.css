@@ -1,0 +1,46 @@
+body{
+  margin: 0px;
+}
+.dashboard-welcome{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: blue;
+  color: white;
+}
+.dashboard-logo{
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+.dashboard-p{
+  margin-left: 60px;
+}
+.services{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 30px;
+}
+.services-2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.services-content{
+  background: white;
+}
+.services-picture{
+  height: 150px;
+}
+.services-content{
+  position: relative;
+}
+.support{
+  background: seagreen;
+}
+.support-whatsapp{
+  display: block;
+}
+.support-whatsapp1{
+  margin-bottom: 5px;
+}
